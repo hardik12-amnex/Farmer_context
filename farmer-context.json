@@ -6,7 +6,7 @@
         "type": "@type",
         "schema": "https://schema.org/",
         "FarmerCredential": {
-            "@id": "https://raw.githubusercontent.com/hardik12-amnex/Farmer_context/main/farmer-context.json#FarmerCredential"
+            "@id": "https://hardik12-amnex.github.io/Farmer_context/farmer-context.json#FarmerCredential"
         },
         "stateFarmerNumber": "schema:Text",
         "centerFarmerNumber": "schema:Text",
