@@ -12,7 +12,6 @@
         "centerFarmerNumber": "schema:Text",
         "farmerName": "schema:Text",
         "fatherName": "schema:Text",
-        "surname": "schema:Text",
         "dateOfBirth": "schema:Text",
         "gender": "schema:Text",
         "village": "schema:Text",
