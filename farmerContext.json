@@ -38,7 +38,7 @@
                 "cropName": "schema:Text",
                 "sownArea": "schema:Text",
                 "sowingDate": "schema:Text",
-                "irrigationType": "schema:Text",
+                "irrigationType": "schema:Text"
             }
         ]
     }
