@@ -1,38 +1,51 @@
 {
     "@context": {
-        "schema": "http://schema.org/"
-    },
-    "farmerId": "schema:Text",
-    "issuanceDate": "schema:Text",
-    "farmerDemoGraphicDetails": {
-        "farmerName": "schema:Text",
-        "identifierName": "schema:Text",
-        "gender": "schema:Text",
-        "dob": "schema:Text",
-        "residenceAddress": "schema:Text",
-        "farmerPhoto": "schema:Text"
-    },
-    "farmerLandDetails": [
-        {
-            "farmId":"schema:Text",
-            "district":"schema:Text",
-            "subDistrict":"schema:Text",
-            "village":"schema:Text",
-            "surveyNumber":"schema:Text",
-            "area":"schema:Text",
-            "ownerType":"schema:Text",
-            "landUseClassification":"schema:Text"
-        }
-    ],
-    "farmerCropDetails": [
-        {
-            "farmId":"schema:Text",
-            "year":"schema:Text",
-            "season":"schema:Text",
-            "cropName":"schema:Text",
-            "sownArea":"schema:Text",
-            "sowingDate":"schema:Text",
-            "irrigationType":"schema:Text"
-        }
-    ]
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "FarmerCredential": {
+            "@id": "https://hardik12-amnex.github.io/Farmer_context/farmerContext.json#FarmerCredential"
+        },
+        "farmerId": "schema:Text",
+        "issuanceDate": "schema:Text",
+        "farmerDemoGraphicDetails": {
+            "id": "@id",
+            "type": "@type",
+            "farmerName": "schema:Text",
+            "identifierName": "schema:Text",
+            "gender": "schema:Text",
+            "dob": "schema:Text",
+            "residenceAddress": "schema:Text",
+            "farmerPhoto": "schema:Text"
+        },
+        "farmerLandDetails": [
+            {
+                "id": "@id",
+                "type": "@type",
+                "farmId": "schema:Text",
+                "district": "schema:Text",
+                "subDistrict": "schema:Text",
+                "village": "schema:Text",
+                "surveyNumber": "schema:Text",
+                "area": "schema:Text",
+                "ownerType": "schema:Text",
+                "landUseClassification": "schema:Text"
+            }
+        ],
+        "farmerCropDetails": [
+            {
+                "id": "@id",
+                "type": "@type",
+                "farmId": "schema:Text",
+                "year": "schema:Text",
+                "season": "schema:Text",
+                "cropName": "schema:Text",
+                "sownArea": "schema:Text",
+                "sowingDate": "schema:Text",
+                "irrigationType": "schema:Text"
+            }
+        ]
+    }
 }
