@@ -11,28 +11,5 @@
         "dob": "schema:Text",
         "residenceAddress": "schema:Text",
         "farmerPhoto": "schema:Text"
-    },
-    "farmerLandDetails": [
-        {
-            "farmId":"schema:Text",
-            "district":"schema:Text",
-            "subDistrict":"schema:Text",
-            "village":"schema:Text",
-            "surveyNumber":"schema:Text",
-            "area":"schema:Text",
-            "ownerType":"schema:Text",
-            "landUseClassification":"schema:Text"
-        }
-    ],
-    "farmerCropDetails": [
-        {
-            "farmId":"schema:Text",
-            "year":"schema:Text",
-            "season":"schema:Text",
-            "cropName":"schema:Text",
-            "sownArea":"schema:Text",
-            "sowingDate":"schema:Text",
-            "irrigationType":"schema:Text"
-        }
-    ]
+    }
 }
