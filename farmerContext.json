@@ -5,6 +5,7 @@
     "farmerId": "schema:Text",
     "issuanceDate": "schema:Text",
     "farmerDemoGraphicDetails": {
+        "type": "@type",
         "farmerName": "schema:Text",
         "identifierName": "schema:Text",
         "gender": "schema:Text",
@@ -14,6 +15,7 @@
     },
     "farmerLandDetails": [
         {
+            "type": "@type",
             "farmId":"schema:Text",
             "district":"schema:Text",
             "subDistrict":"schema:Text",
@@ -26,6 +28,7 @@
     ],
     "farmerCropDetails": [
         {
+            "type": "@type",
             "farmId":"schema:Text",
             "year":"schema:Text",
             "season":"schema:Text",
