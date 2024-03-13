@@ -1,15 +1,33 @@
 {
-    "@context": {
-        "schema": "http://schema.org/"
-    },
-    "farmerId": "schema:Text",
-    "issuanceDate": "schema:Text",
-    "farmerDemoGraphicDetails": {
-        "farmerName": "schema:Text",
-        "identifierName": "schema:Text",
-        "gender": "schema:Text",
-        "dob": "schema:Text",
-        "residenceAddress": "schema:Text",
-        "farmerPhoto": "schema:Text"
-    }
+  "@context": {
+    "@version": 1.1,
+    "schema": "http://schema.org/",
+    "farmer": "https://hardik12-amnex.github.io/Farmer_context/farmreContextUp.json#farmer",
+    "farmerRegistry": "https://hardik12-amnex.github.io/Farmer_context/farmreContextUp.json#farmerRegistry",
+    "farmerId": "farmer:farmerId",
+    "farmerDemoGraphicDetails": "farmer:farmerDemoGraphicDetails",
+    "farmerName": "farmer:farmerName",
+    "identifierName": "farmer:identifierName",
+    "gender": "farmer:gender",
+    "dob": "farmer:dob",
+    "residenceAddress": "farmer:residenceAddress",
+    "farmerPhoto": "farmer:farmerPhoto",
+    "farmerLandDetails": "farmer:farmerLandDetails",
+    "farmId": "farmer:farmId",
+    "district": "farmer:district",
+    "subDistrict": "farmer:subDistrict",
+    "village": "farmer:village",
+    "surveyNumber": "farmer:surveyNumber",
+    "area": "farmer:area",
+    "ownerType": "farmer:ownerType",
+    "landUseClassification": "farmer:landUseClassification",
+    "farmerCropDetails": "farmer:farmerCropDetails",
+    "year": "farmer:year",
+    "season": "farmer:season",
+    "cropName": "farmer:cropName",
+    "sownArea": "farmer:sownArea",
+    "sowingDate": "farmer:sowingDate",
+    "irrigationType": "farmer:irrigationType",
+    "issuanceDate": "farmer:issuanceDate"
+  }
 }
