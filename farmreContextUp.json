@@ -28,6 +28,7 @@
     "sownArea": "farmer:sownArea",
     "sowingDate": "farmer:sowingDate",
     "irrigationType": "farmer:irrigationType",
-    "issuanceDate": "farmer:issuanceDate"
+    "issuanceDate": "farmer:issuanceDate",
+    "allFieldNotSelected": "farmer:allFieldNotSelected"
   }
 }
