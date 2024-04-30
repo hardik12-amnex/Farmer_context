@@ -29,6 +29,6 @@
     "sowingDate": "farmer:sowingDate",
     "irrigationType": "farmer:irrigationType",
     "issuanceDate": "farmer:issuanceDate",
-    "allFieldNotSelected": "farmer:allFieldNotSelected"
+    "disclaimer": "farmer:disclaimer"
   }
 }
