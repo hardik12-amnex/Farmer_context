@@ -13,6 +13,6 @@
     "residenceAddress": "farmer:residenceAddress",
     "farmerPhoto": "farmer:farmerPhoto",
     "issuanceDate": "farmer:issuanceDate",
-    "dvcType": "farmer:disclaimer"
+    "dvcType": "farmer:dvcType"
   }
 }
