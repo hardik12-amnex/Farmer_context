@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "http://schema.org/",
+    "farmer": "https://hardik12-amnex.github.io/Farmer_context/farmreContextUp.json#farmer",
+    "farmerRegistry": "https://hardik12-amnex.github.io/Farmer_context/farmreContextUp.json#farmerRegistry",
+    "farmerId": "farmer:farmerId",
+    "farmerDemoGraphicDetails": "farmer:farmerDemoGraphicDetails",
+    "farmerName": "farmer:farmerName",
+    "identifierName": "farmer:identifierName",
+    "gender": "farmer:gender",
+    "dob": "farmer:dob",
+    "residenceAddress": "farmer:residenceAddress",
+    "farmerPhoto": "farmer:farmerPhoto",
+    "farmerCropDetails": "farmer:farmerCropDetails",
+        "farmId": "farmer:farmId",
+    "year": "farmer:year",
+    "season": "farmer:season",
+    "cropName": "farmer:cropName",
+    "sownArea": "farmer:sownArea",
+    "sowingDate": "farmer:sowingDate",
+    "irrigationType": "farmer:irrigationType",
+    "issuanceDate": "farmer:issuanceDate",
+    "dvcType": "farmer:dvcType"
+  }
+}
