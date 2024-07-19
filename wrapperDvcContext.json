@@ -30,6 +30,7 @@
     "cData5": "farmer:cData5",
     "assetHash": "farmer:assetHash",
     "dvcType": "farmer:dvcType",
+    "issuanceDate": "farmer:issuanceDate",
     "disclaimer": "farmer:disclaimer"
   }
 }
