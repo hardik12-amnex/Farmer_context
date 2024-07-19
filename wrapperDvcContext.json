@@ -12,7 +12,7 @@
     "farmerPhoto": "farmer:farmerPhoto",
     "landDvcDetails": "farmer:landDvcDetails",
     "credentialId": "farmer:credentialId",
-    "type": "farmer:type",
+    "lType": "farmer:lType",
     "qrUrl": "farmer:qrUrl",
     "data1": "farmer:data1",
     "data2": "farmer:data2",
