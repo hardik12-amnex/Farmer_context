@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "http://schema.org/",
+    "farmer": "https://hardik12-amnex.github.io/Farmer_context/farmreContextUp.json#farmer",
+    "farmerRegistry": "https://hardik12-amnex.github.io/Farmer_context/farmreContextUp.json#farmerRegistry",
+    "farmerId": "farmer:farmerId",
+    "farmerDemoGraphicDetails": "farmer:farmerDemoGraphicDetails",
+    "farmerName": "farmer:farmerName",
+    "identifierName": "farmer:identifierName",
+    "residenceAddress": "farmer:residenceAddress",
+    "farmerPhoto": "farmer:farmerPhoto",
+    "landDvcDetails": "farmer:landDvcDetails",
+    "credentialId": "farmer:credentialId",
+    "type": "farmer:type",
+    "qrUrl": "farmer:qrUrl",
+    "data1": "farmer:data1",
+    "data2": "farmer:data2",
+    "data3": "farmer:data3",
+    "data4": "farmer:data4",
+    "data5": "farmer:data5",
+    "cropDvcDetails": "farmer:cropDvcDetails",
+    "assetHash": "farmer:assetHash",
+    "dvcType": "farmer:dvcType",
+    "disclaimer": "farmer:disclaimer"
+  }
+}
